@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "335270257713",
+    "project_id": "finalodevvideo",
+    "storage_bucket": "finalodevvideo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335270257713:android:141e68f03f80d1c84d2110",
+        "android_client_info": {
+          "package_name": "com.example.finalodevvideo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb_fQZj5z9RLxcoPPN0giSEIOEZ2vIAEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

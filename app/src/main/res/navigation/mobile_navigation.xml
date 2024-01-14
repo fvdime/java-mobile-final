@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_label"
+        android:name="com.example.finalodevvideo.ui.label.LabelFragment"
+        android:label="Add Label"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="com.example.finalodevvideo.ui.photo.PhotoFragment"
+        android:label="Add Photo"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.finalodevvideo.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.finalodevvideo.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.finalodevvideo.ui.logout.LogoutFragment"
+        android:label="Log Out"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
